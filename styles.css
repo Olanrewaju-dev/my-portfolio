@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  font-size: 16px;
+  font-family: "Noto Sans", sans-serif !important;
+  width: 100%;
+}
+
+a {
+  color: #535353 !important;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  background-color: #cd2f4e !important;
+  color: white !important;
+}
+
+section {
+  padding: 1rem;
+}
+
+.section-title {
+  background-color: #cd2f4e;
+  color: white;
+  padding: 0.5rem;
+  display: inline-block;
+  border-radius: 0.5rem;
+}
+
+#icons img {
+  width: 80px;
+  height: 80px;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+#tindog {
+  background-color: #ff4b67;
+  color: white;
+  border-radius: 0.75rem;
+  padding: 1.5rem 0.75rem;
+  margin: 1.5rem 0;
+}
+
+.tindog-tool p {
+  margin: 0.3rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  color: #535353;
+}
+
+.white-link {
+  color: white !important;
+}
+
+/* .project-number {
+  color: black;
+  background-color: #edecec;
+  display: block;
+  border-radius: 100%;
+  width: 25px;
+  padding: 1rem;
+} */
+
+#simon-game {
+  background-color: #30254f;
+  color: white;
+  border-radius: 0.75rem;
+  padding: 1.5rem 0.75rem;
+  margin: 1.5rem 0;
+}
+
+.simon-game-tool p {
+  margin: 0.3rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  color: #535353;
+}
+
+#proflinksmedia {
+  background-color: #c0c0c0;
+  color: black;
+  border-radius: 0.75rem;
+  padding: 1.5rem 0.75rem;
+  margin: 1.5rem 0;
+}
+
+.proflinksmedia-tool p {
+  margin: 0.3rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  color: #535353;
+}
+
+#drumkitjs {
+  background-color: #052927;
+  color: white;
+  border-radius: 0.75rem;
+  padding: 1.5rem 0.75rem;
+  margin: 1.5rem 0;
+}
+
+.drumkitjs-tool p {
+  margin: 1rem 0.3rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  color: #535353;
+}
+
+.contact {
+  margin-bottom: 1rem;
+}
+
+.contact-details {
+  margin: 2rem 0;
+  padding: 0 1rem;
+}
+
+.bi-geo-alt-fill {
+  color: #cd2f4e;
+}
+
+.bi-envelope-fill {
+  color: #cd2f4e;
+}
+
+/* Laptop and desktop media query */
+@media only screen and (min-width: 600px) {
+  section {
+    padding: 2rem 8rem;
+  }
+
+  .navbar {
+    padding: 1rem 7.5rem !important;
+  }
+}
